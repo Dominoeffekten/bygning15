@@ -1,7 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - DoorGrabbable
     - ONSPSettings
+    - OVRTouchSample.Hand
+    - OVRTouchSample.HandPose
     - follow
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
@@ -9,6 +12,7 @@ ScriptsOnlyBuild:
     Oculus.VR.dll:
     - OVRCameraRig
     - OVRDebugInfo
+    - OVRGrabber
     - OVRHeadsetEmulator
     - OVRManager
     - OVRPlayerController
@@ -19,15 +23,17 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
   sceneClasses:
-    Assets/Scenes/New.unity:
+    Assets/Scenes/bygning.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -54,9 +60,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
       Script: {instanceID: 0}
     - Class: 95
       Script: {instanceID: 0}
@@ -79,6 +89,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12604}
     - Class: 114
+      Script: {instanceID: 12612}
+    - Class: 114
+      Script: {instanceID: 12762}
+    - Class: 114
       Script: {instanceID: 13184}
     - Class: 114
       Script: {instanceID: 13576}
@@ -86,7 +100,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13586}
     - Class: 114
       Script: {instanceID: 13662}
+    - Class: 114
+      Script: {instanceID: 13682}
+    - Class: 114
+      Script: {instanceID: 177200}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 138
       Script: {instanceID: 0}
@@ -387,7 +409,7 @@ ScriptsOnlyBuild:
     className: OVRMixedRealityCaptureTest
   - hash:
       serializedVersion: 2
-      Hash: c51d2a1569bb404a12e837742887b609
+      Hash: 9b26ba0073d9671f979226db5536f977
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRPlayerController
@@ -529,12 +551,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: HandsManager
-  - hash:
-      serializedVersion: 2
-      Hash: 7d9f31bf528a5575051fe1cdc22a168d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerMove
   - hash:
       serializedVersion: 2
       Hash: 27e0d5473ed8676e1a32d1036f86a848
@@ -1075,12 +1091,6 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrVoiceChat
     className: PlatformManager
-  - hash:
-      serializedVersion: 2
-      Hash: 82df1638108e0e6f100d144bb14c53c6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerLook
   - hash:
       serializedVersion: 2
       Hash: 8fb3d6b79e9539c38197df7ed25fc22d
@@ -1717,7 +1727,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: b81199604d7338e319fe89c2e1ad71b7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DoorGrabbable
   platform: 13
   scenePathNames:
-  - Assets/Scenes/New.unity
+  - Assets/Scenes/bygning.unity
   playerPath: C:/Users/Administrator/Desktop/bygning15.apk
