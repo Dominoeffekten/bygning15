@@ -2,10 +2,10 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - DoorGrabbable
+    - Follow
     - ONSPSettings
     - OVRTouchSample.Hand
     - OVRTouchSample.HandPose
-    - follow
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     - OVRConfig
@@ -23,10 +23,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -81,29 +79,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11748}
     - Class: 114
-      Script: {instanceID: 12088}
+      Script: {instanceID: 12086}
     - Class: 114
-      Script: {instanceID: 12328}
+      Script: {instanceID: 12326}
     - Class: 114
-      Script: {instanceID: 12486}
+      Script: {instanceID: 12484}
     - Class: 114
-      Script: {instanceID: 12604}
+      Script: {instanceID: 12602}
     - Class: 114
-      Script: {instanceID: 12612}
+      Script: {instanceID: 12610}
+    - Class: 114
+      Script: {instanceID: 12748}
     - Class: 114
       Script: {instanceID: 12762}
     - Class: 114
-      Script: {instanceID: 13184}
+      Script: {instanceID: 13182}
     - Class: 114
-      Script: {instanceID: 13576}
+      Script: {instanceID: 13574}
     - Class: 114
-      Script: {instanceID: 13586}
+      Script: {instanceID: 13584}
     - Class: 114
-      Script: {instanceID: 13662}
+      Script: {instanceID: 13660}
     - Class: 114
-      Script: {instanceID: 13682}
-    - Class: 114
-      Script: {instanceID: 177200}
+      Script: {instanceID: 13680}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -799,12 +797,6 @@ ScriptsOnlyBuild:
     className: ONSPReflectionZone
   - hash:
       serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: board
-  - hash:
-      serializedVersion: 2
       Hash: f2804c5e7659d20873aa628b628aaa3b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1001,6 +993,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OVRLipSyncContextMorphTarget
+  - hash:
+      serializedVersion: 2
+      Hash: b81199604d7338e319fe89c2e1ad71b7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DoorGrabbable
   - hash:
       serializedVersion: 2
       Hash: 157538f8f4891e8727c599fd613d7108
@@ -1438,7 +1436,7 @@ ScriptsOnlyBuild:
       Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: follow
+    className: Follow
   - hash:
       serializedVersion: 2
       Hash: b00ce1f32326f1cd1160488ffd14965a
@@ -1727,12 +1725,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: b81199604d7338e319fe89c2e1ad71b7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoorGrabbable
   platform: 13
   scenePathNames:
   - Assets/Scenes/bygning.unity
