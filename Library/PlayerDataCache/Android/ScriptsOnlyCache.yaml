@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Bombe
     - DoorGrabbable
     - Follow
     - ONSPSettings
@@ -12,6 +13,7 @@ ScriptsOnlyBuild:
     Oculus.VR.dll:
     - OVRCameraRig
     - OVRDebugInfo
+    - OVRGrabbable
     - OVRGrabber
     - OVRHeadsetEmulator
     - OVRManager
@@ -25,7 +27,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -93,6 +94,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12762}
     - Class: 114
+      Script: {instanceID: 12774}
+    - Class: 114
       Script: {instanceID: 13182}
     - Class: 114
       Script: {instanceID: 13574}
@@ -102,6 +105,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13660}
     - Class: 114
       Script: {instanceID: 13680}
+    - Class: 114
+      Script: {instanceID: 21384}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -1725,6 +1730,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ace76d83d14f2e4a648d56a75115edf0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Bombe
   platform: 13
   scenePathNames:
   - Assets/Scenes/bygning.unity
