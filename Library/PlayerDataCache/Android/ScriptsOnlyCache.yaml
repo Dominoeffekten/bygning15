@@ -1,11 +1,12 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Door
     - DoorGrabbable
-    - Follow
     - ONSPSettings
     - OVRTouchSample.Hand
     - OVRTouchSample.HandPose
+    - follow
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     - OVRConfig
@@ -73,35 +74,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11390}
+      Script: {instanceID: 11368}
     - Class: 114
-      Script: {instanceID: 11534}
+      Script: {instanceID: 11404}
     - Class: 114
-      Script: {instanceID: 11748}
+      Script: {instanceID: 11550}
     - Class: 114
-      Script: {instanceID: 12086}
+      Script: {instanceID: 11766}
     - Class: 114
-      Script: {instanceID: 12326}
+      Script: {instanceID: 12106}
     - Class: 114
-      Script: {instanceID: 12484}
+      Script: {instanceID: 12346}
     - Class: 114
-      Script: {instanceID: 12602}
+      Script: {instanceID: 12504}
     - Class: 114
-      Script: {instanceID: 12610}
+      Script: {instanceID: 12622}
     - Class: 114
-      Script: {instanceID: 12748}
+      Script: {instanceID: 12630}
     - Class: 114
-      Script: {instanceID: 12762}
+      Script: {instanceID: 12768}
     - Class: 114
-      Script: {instanceID: 13182}
+      Script: {instanceID: 12782}
     - Class: 114
-      Script: {instanceID: 13574}
+      Script: {instanceID: 13204}
     - Class: 114
-      Script: {instanceID: 13584}
+      Script: {instanceID: 13596}
     - Class: 114
-      Script: {instanceID: 13660}
+      Script: {instanceID: 13606}
     - Class: 114
-      Script: {instanceID: 13680}
+      Script: {instanceID: 13682}
+    - Class: 114
+      Script: {instanceID: 13702}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -183,6 +186,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OvrAvatarBody
+  - hash:
+      serializedVersion: 2
+      Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Door
   - hash:
       serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
@@ -1436,7 +1445,7 @@ ScriptsOnlyBuild:
       Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Follow
+    className: follow
   - hash:
       serializedVersion: 2
       Hash: b00ce1f32326f1cd1160488ffd14965a

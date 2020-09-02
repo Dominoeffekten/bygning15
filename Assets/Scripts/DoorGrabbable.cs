@@ -9,14 +9,14 @@ public class DoorGrabbable : OVRGrabbable
 	//tager firkanten i døren, og sætter den på sin rette plads igen, så den ikke svæver i luften
     public override void GrabEnd(Vector3 linearVelocity, Vector3 angularVelocity){ //linearVelocity is X and Y directions angularVelocity is Angular velocity in degrees per second.
 
-	base.GrabEnd(Vector3.zero, Vector3.zero);
-	transform.position = handler.transform.position;
-	transform.rotation = handler.transform.rotation;
+		base.GrabEnd(Vector3.zero, Vector3.zero);
+		transform.position = handler.transform.position;
+		transform.rotation = handler.transform.rotation;
 
-	//undgår at døren går tilbage igen
-	Rigidbody rbhandler = handler.GetComponent<Rigidbody>(); //physics simulation
-	rbhandler.velocity = Vector3.zero; //The velocity vector of the rigidbody. It represents the rate of change of Rigidbody position.
-	rbhandler.angularVelocity = Vector3.zero; // The angular velocity vector of the rigidbody measured in radians per second.
+		//undgår at døren går tilbage igen
+		Rigidbody rbhandler = handler.GetComponent<Rigidbody>(); //physics simulation
+		rbhandler.velocity = Vector3.zero; //The velocity vector of the rigidbody. It represents the rate of change of Rigidbody position.
+		rbhandler.angularVelocity = Vector3.zero; // The angular velocity vector of the rigidbody measured in radians per second.
     }
 
 	private void Update(){
