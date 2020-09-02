@@ -16,7 +16,7 @@ public class Follow : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
 	rb.MovePosition(target.transform.position);
         
