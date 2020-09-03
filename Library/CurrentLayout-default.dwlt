@@ -426,9 +426,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -6.7325907, y: -4.030017, z: -1.6553872}
+    m_Target: {x: -7.035899, y: 0.65523136, z: 21.984468}
     speed: 2
-    m_Value: {x: -6.7325907, y: -4.030017, z: -1.6553872}
+    m_Value: {x: -7.035899, y: 0.65523136, z: 21.984468}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -478,9 +478,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.16245984, y: 0.688191, z: -0.16245987, w: 0.688191}
   m_Size:
-    m_Target: 11.150828
+    m_Target: 1.8173652
     speed: 2
-    m_Value: 11.150828
+    m_Value: 1.8173652
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -534,9 +534,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 6cfbffff
+      m_SelectedIDs: 58410000
+      m_LastClickedID: 16728
+      m_ExpandedIDs: c6f5ffffbcf9ffff3efaffff6cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -599,36 +599,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Color
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Color
   m_LastFoldersGridSize: 64
   m_LastProjectPath: /Users/rikkedomino/Unity/bygning15
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fa3a0000
-    m_LastClickedID: 15098
+    m_SelectedIDs: ee3a0000
+    m_LastClickedID: 15086
     m_ExpandedIDs: 00000000ae3a0000b03a0000b23a0000b43a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Color
+      m_OriginalName: Color
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 15086
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 4}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -667,7 +667,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000000000003a4f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
