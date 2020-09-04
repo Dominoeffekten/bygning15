@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//make a grenade explode after 2 sec.
+// https://www.youtube.com/watch?v=xqQkiHI5U9o
+//https://www.youtube.com/watch?v=s_v9JnTDCCY
+//make a grenade explode after hitting the floor - flying cubes
 public class Bombe : MonoBehaviour {
 
     //cubes

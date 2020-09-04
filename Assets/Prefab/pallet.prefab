@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5241474498263386130}
   - component: {fileID: 9156573254030002103}
   - component: {fileID: 6410409618448446333}
-  - component: {fileID: 5708255577297795859}
+  - component: {fileID: 3285379344189478522}
   - component: {fileID: 5708255577297795858}
   m_Layer: 0
   m_Name: pallet
@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8771166627424403242, guid: 50332da81d22441dcb9faf31aa0197c2, type: 3}
+  - {fileID: 2100000, guid: 453aa9f0cf7b9224396b62cbe4e45a0c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -81,8 +81,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5708255577297795859
-MeshCollider:
+--- !u!65 &3285379344189478522
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -91,10 +91,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8429302130186473499, guid: 50332da81d22441dcb9faf31aa0197c2, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.8, y: 0.172534, z: 0.971168}
+  m_Center: {x: 0, y: 0.086267, z: 0}
 --- !u!114 &5708255577297795858
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,18 +1,20 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - Bombe
+    - BrokenItem
     - DoorGrabbable
     - ONSPSettings
     - OVRTouchSample.Hand
     - OVRTouchSample.HandPose
     - OpenDoor
+    - grenadeExplosion
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     - OVRConfig
     Oculus.VR.dll:
     - OVRCameraRig
     - OVRDebugInfo
+    - OVRGrabbable
     - OVRGrabber
     - OVRHeadsetEmulator
     - OVRManager
@@ -68,37 +70,41 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11406}
+      Script: {instanceID: 11428}
     - Class: 114
-      Script: {instanceID: 11550}
+      Script: {instanceID: 11572}
     - Class: 114
-      Script: {instanceID: 11764}
+      Script: {instanceID: 11786}
     - Class: 114
-      Script: {instanceID: 12102}
+      Script: {instanceID: 12124}
     - Class: 114
-      Script: {instanceID: 12342}
+      Script: {instanceID: 12364}
     - Class: 114
-      Script: {instanceID: 12498}
+      Script: {instanceID: 12520}
     - Class: 114
-      Script: {instanceID: 12616}
+      Script: {instanceID: 12638}
     - Class: 114
-      Script: {instanceID: 12624}
+      Script: {instanceID: 12646}
     - Class: 114
-      Script: {instanceID: 12762}
+      Script: {instanceID: 12784}
     - Class: 114
-      Script: {instanceID: 12776}
+      Script: {instanceID: 12798}
     - Class: 114
-      Script: {instanceID: 13196}
+      Script: {instanceID: 12810}
     - Class: 114
-      Script: {instanceID: 13590}
+      Script: {instanceID: 13218}
     - Class: 114
-      Script: {instanceID: 13600}
+      Script: {instanceID: 13608}
     - Class: 114
-      Script: {instanceID: 13676}
+      Script: {instanceID: 13618}
     - Class: 114
-      Script: {instanceID: 13696}
+      Script: {instanceID: 13694}
     - Class: 114
-      Script: {instanceID: 13786}
+      Script: {instanceID: 13714}
+    - Class: 114
+      Script: {instanceID: 14160}
+    - Class: 114
+      Script: {instanceID: 28650}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -1364,12 +1370,6 @@ ScriptsOnlyBuild:
     className: OVRMeshRenderer
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HandPresence
-  - hash:
-      serializedVersion: 2
       Hash: 349fc863c5f9c0b3f7471af2e318712a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1712,6 +1712,12 @@ ScriptsOnlyBuild:
     className: OVRLipSyncContextTextureFlip
   - hash:
       serializedVersion: 2
+      Hash: fed15ddba144fbc61eb427aa50643a7b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BrokenItem
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1734,6 +1740,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 59ec3f7a2c3c8d562ba68c06a8ba650a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: grenadeExplosion
+  - hash:
+      serializedVersion: 2
+      Hash: fed15ddba144fbc61eb427aa50643a7b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BombeBroken
   platform: 13
   scenePathNames:
   - Assets/Scenes/bygning.unity
